@@ -9,7 +9,8 @@ a img {vertical-align:middle;}
 .mod-list {*zoom:1;}
 .mod-list li {position:relative; float:left;}
 .wrap {width:1200px; margin-left:auto; margin-right:auto;}
-.lazy {background: url(http://s.hqbcdn.com/assets/v3/images/okhqb-loading.gif) no-repeat 50% 50%;}
+/* .lazy {background: url(http://s.hqbcdn.com/assets/v3/images/okhqb-loading.gif) no-repeat 50% 50%;} */
+.lazy {background: no-repeat 50% 50%;}
 
 /* 通栏广告、通栏伸缩广告、紧急公告 */
 .w_ads,.w_ads_slide{position:relative; width:1200px; margin:0 auto; text-align:center;}
