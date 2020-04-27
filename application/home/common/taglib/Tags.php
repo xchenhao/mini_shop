@@ -86,7 +86,7 @@ str;
 if($click){
     \$goodsDataTag =\$goodsModelTag->order('click desc')->limit($rows)->select();
 }else{
-    \$goodsDataTag = \$goodsModelTag->where($where)->limit($rows)->select();
+    \$goodsDataTag = \$goodsModelTag->where($where)->order('click desc')->limit($rows)->select();
 }
 foreach(\$goodsDataTag as \$k=>\$field):
 \$field['num']=\$k+1;
