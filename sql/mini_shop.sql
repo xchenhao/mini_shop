@@ -275,12 +275,12 @@ CREATE TABLE `gf_users`  (
 -- ----------------------------
 -- Records of gf_users
 -- ----------------------------
-INSERT INTO `gf_users` VALUES (2, 'chenhao', 'fcea920f7412b5da7be0cf42b8c93759', 'chenhao_apple@163.com', 'avatars/201901/11/cb4b957a4d4a719fa1d94b510cd2e07f121750.jpg');
+INSERT INTO `gf_users` VALUES (2, 'chenhao', 'e10adc3949ba59abbe56e057f20f883e', 'chenhao_apple@163.com', 'avatars/201901/11/cb4b957a4d4a719fa1d94b510cd2e07f121750.jpg');
 INSERT INTO `gf_users` VALUES (8, 'chenhao4', 'e10adc3949ba59abbe56e057f20f883e', '', '');
 INSERT INTO `gf_users` VALUES (9, '7777777', 'e10adc3949ba59abbe56e057f20f883e', '', '');
 INSERT INTO `gf_users` VALUES (10, 'chenhao9', 'e10adc3949ba59abbe56e057f20f883e', '', '');
 INSERT INTO `gf_users` VALUES (11, '123456', 'e10adc3949ba59abbe56e057f20f883e', '', '');
-INSERT INTO `gf_users` VALUES (12, 'chenhao2', 'e10adc3949ba59abbe56e057f20f883e', '464344458@163.com', '');
+INSERT INTO `gf_users` VALUES (12, 'chenhao2', 'e10adc3949ba59abbe56e057f20f883e', '', '');
 
 -- ----------------------------
 -- Table structure for gf_view_times

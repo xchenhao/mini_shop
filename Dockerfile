@@ -13,4 +13,3 @@ COPY composer.json .
 RUN export COMPOSER_ALLOW_SUPERUSER=1; composer install;
 
 COPY . .
-
