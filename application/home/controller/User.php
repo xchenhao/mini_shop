@@ -218,6 +218,7 @@ class User extends Controller
 
             $code = Util::randomKeys(6);
             Session::set('forget_code', $code);
+            /*
             Util::sendMail([
                 'to' => $mailAccount,
                 'subject' => '【宅喵商城】验证码',
@@ -227,9 +228,11 @@ class User extends Controller
                     'confirm_content' => '您的账号正在进行找回密码的操作',
                 ],
             ]);
+            */
             return [
                 'success' => true,
-                'info' => '发送成功',
+                // 'info' => '发送成功',
+                'info' => sprintf('验证码：' . $code),
             ];
         } catch (\Exception $e) {
             return [
