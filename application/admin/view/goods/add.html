@@ -334,7 +334,8 @@
     function upImage(obj, type = 'list-pic') {
         require(['util'], function (util) {
             options = {
-                multiple: false,//是否允许多图上传
+              multiple: false,//是否允许多图上传
+              fileSingleSizeLimit:5 * 1024 * 1024
             };
             util.image(function (images) {
                 $(obj).parent().siblings('input').val(images[0]);
