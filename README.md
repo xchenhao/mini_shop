@@ -1,7 +1,7 @@
 ## Deployment
 
 ```bash
-git clone https://github.com/xchenhao/mini_shop.git
+git clone -b missevan-shop https://github.com/xchenhao/mini_shop.git
 composer install
 
 cd mini_shop
