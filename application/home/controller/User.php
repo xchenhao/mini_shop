@@ -232,8 +232,8 @@ class User extends Controller
             return [
                 'success' => true,
                 'info' => '邮件正在发送中',
-//                'info' => '发送成功',
-//                'info' => sprintf('验证码：' . $code),
+                 // 'info' => '发送成功',
+                 // 'info' => sprintf('验证码：' . $code),
             ];
         } catch (\Exception $e) {
             return [
